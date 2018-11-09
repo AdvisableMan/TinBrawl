@@ -76,3 +76,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# EXTRA ASSETS
+*/Content/DeadHillsLandscape/*
+*/Content/GT_FREE18/*
+*/Content/EnvironmentSounds/*
+
