@@ -78,7 +78,6 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # EXTRA ASSETS
-*/Content/DeadHillsLandscape/*
-*/Content/GT_FREE18/*
-*/Content/EnvironmentSounds/*
+Content/*
+WindowsNoEditor/*
 

@@ -4,6 +4,7 @@
 
 #include "Tank.h"
 #include "CoreMinimal.h"
+#include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h" // MUST be the last include
 
@@ -23,6 +24,14 @@ private:
 	ATank* GetControlledTank() const;
 
 	void AimTowardsCrosshair();
-	
-	
+	// Return an OUT parameter, true if hit landscape
+	bool GetAimRayHitLocation(FVector& OutAimLocation) const;
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairXLocation = 0.5f;
+	UPROPERTY(EditAnywhere)
+	float CrosshairYLocation = 0.3333f;
+	UPROPERTY(EditAnywhere)
+	float TraceRange = 1000000.0f;
+
 };
